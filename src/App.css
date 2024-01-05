@@ -1,0 +1,18 @@
+#contact {
+  background-image: url('./images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.susbcribe {
+  background: rgb(57,57,57);
+  background: linear-gradient(90deg, rgba(57,57,57,0.8) 0%, rgba(57,57,57,0.8) 49%, rgba(59,150,83,0.8) 100%);
+}
+
+@media screen and (max-width: 560px) {
+  #contact {
+    height: 250px;
+  }
+}
